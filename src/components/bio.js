@@ -38,8 +38,9 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Paris,
-              France, building useful things.
+              Written by <strong>{author}</strong> who lives and works in Paris
+              area 🇫🇷. He loves to build meaningful things with AWS, Data
+              Engineering & Machine Learning.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
