@@ -12,7 +12,7 @@ This is my n-th trial to blog on a regular basis. I really hope this time I can 
 
 Here I [share the link](https://medium.com/@htaidirt/my-100-words-challenge-c3223c8bbea5) to my first trial into this journey. I made the challenge to write 100 words daily. As expected, I didn’t keep my engagement, and became a frustration.
 
-This time, I’ll try to only write if I have useful things to share with you. I’ll keep a time box so I must produce on a regular basis (otherwise I’ll never publishing, pretexting the post is not “perfect”).
+This time, I’ll try to only write if I have useful things to share with you. I’ll keep a time box so I must produce on a regular basis (otherwise I’ll never publishing, pretexting the post is not "perfect").
 
 I’m a developer. Most of my learning was self-done, so I evolved depending on the opportunities. I already programmed in PHP, Ruby, Python, Node.js and Go. My programming is now done at 80% Node.js, building Serverless applications with AWS Lambda and React, and 20% on Python doing fun Machine Learning.
 
