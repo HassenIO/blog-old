@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { DiscussionEmbed } from "disqus-react"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -10,15 +11,21 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
+    const postTitle = post.frontmatter.title
+    const { previous, next, slug } = this.props.pageContext
+
+    const disqusConfig = {
+      shortname: process.env.GATSBY_DISQUS_NAME,
+      config: { identifier: slug, title: postTitle },
+    }
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title={post.frontmatter.title}
+          title={postTitle}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <h1>{postTitle}</h1>
         <p
           style={{
             ...scale(-1 / 5),
@@ -61,6 +68,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+        <DiscussionEmbed {...disqusConfig} />
       </Layout>
     )
   }
