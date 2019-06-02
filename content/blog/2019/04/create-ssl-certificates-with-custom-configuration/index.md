@@ -12,7 +12,7 @@ I share here this conf file, hoping that it will help developers and ops to move
 
 First, create a configuration file. Let’s say it’s named **my_openssl.conf**:
 
-```
+```bash
 [ req ]
 default_bits = 2048
 default_keyfile = my_private_name.key # name of the generated keyfile
@@ -46,11 +46,15 @@ In this conf file, the alt name that is optional, is now required, with a defaul
 
 Next, to generate the keys, just run the following in your bash script:
 
-`openssl req -new -nodes -sha256 -config my_openssl.conf -out my_certificate_name.csr`
+```bash
+openssl req -new -nodes -sha256 -config my_openssl.conf -out my_certificate_name.csr
+```
 
 Finally, to check everything is OK, just run the following:
 
-`openssl req -in my_certificate_name.csr -noout -text`
+```bash
+openssl req -in my_certificate_name.csr -noout -text
+```
 
 You should be able to find your information and check if you didn’t miss something.
 
