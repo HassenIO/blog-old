@@ -1,6 +1,6 @@
 ---
 title: Strategic testing
-date: "2019-02-06T00:00:00.000Z"
+date: "2019-03-06T00:00:00.000Z"
 description: Discussing what testing is for developers, and how to strategize tests given projects and needs.
 ---
 
@@ -35,8 +35,6 @@ As Martin Fowler suggests in [his pyramid of tests](https://martinfowler.com/art
 
 Your tests will cover many aspects of your application, at different levels. But how to decide which tests you should focus on?
 
-![Photo by Michał Parzuchowski on Unsplash](./Janga-Game-Unsplash.jpeg)
-
 ## What are your expected outcomes?
 
 Why are you testing? Do you have a main purpose for your tests? Do you blindly follow test coverage stats to satisfy your ego or your manager? I personally made the mistake of chasing the 90% test coverage, and this didn’t prevent my application to miserably fail on production.
@@ -48,6 +46,8 @@ Create a risk list, prioritize it, then write tests. In other words, have a test
 The testing pyramid shows that integration tests provides the highest ROI for developers. They allow you to think about what your feature should do, and how it should behave given different use cases. One should probably start here defining application behaviors, then go deeper thinking about how to create the feature, using unit tests, and finally add some UI tests to ensure decent rendering.
 
 Starting with integration tests will also help you structure your implementation. It seems hard at first, but thinking about how the application should respond to different use cases will show you the best direction to take when coding phase comes.
+
+![Photo by Michał Parzuchowski on Unsplash](./Janga-Game-Unsplash.jpeg)
 
 ## If it can fail, it will fail
 

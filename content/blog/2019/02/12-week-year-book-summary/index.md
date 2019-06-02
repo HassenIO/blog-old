@@ -1,6 +1,6 @@
 ---
 title: 12 Week Year [Book Summary]
-date: "2019-01-19T00:00:00.000Z"
+date: "2019-02-19T00:00:00.000Z"
 description: A summary of the "12 Week Year" methodology.
 ---
 
