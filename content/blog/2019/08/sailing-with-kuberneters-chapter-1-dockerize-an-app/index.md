@@ -1,7 +1,7 @@
 ---
-title: Create Your First Kubernetes Cluster on AWS - Part 1
+title: "Sailing with Kubernetes. Chapter 1: Dockerize an App"
 date: "2019-08-19T00:00:00.000Z"
-description: Kubernetes doesn't have to be hard. In this first post of the series, I create a basic web app, until I push a Docker image containing the app to Docker Hub.
+description: Kubernetes doesn't have to be hard. In this first post of the series, I create a basic web app, then I push a Docker image containing the app to Docker Hub.
 ---
 
 Hello World,
