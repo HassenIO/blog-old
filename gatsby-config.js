@@ -33,6 +33,7 @@ module.exports = {
               maxWidth: 590,
               showCaptions: true,
               markdownCaptions: true,
+              wrapperStyle: `text-align: center; color: #999; font-style: italic; font-size: 0.75em;`,
             },
           },
           {
